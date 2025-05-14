@@ -22,3 +22,10 @@ qwe
 (:key001 65.819609e+1:key02 'o':key03 "h0zDfZaYrR":)
 (: key1 49.380721e+1:key2 'u':key3 "9qQq8MRlGf":)
 (: key1 49.380721e+1:key2 'u':key3 "9qQq8MRlGf)
+(:key 65.819609e+1:key2 'o':key3 "h0zDfZaYrR":)
+(:key1 65.819609e+1:key2 o':key3 "h0zDfZaYrR":)
+(:key1 65.819609e+1:key2 'o':key3 "h0zDfZaYrR:)
+(:key1 65.819609e++1:key2 'o':key3 "h0zDfZaYrR":)
+(:key1 65..9609e+1:key2 'o':key3 "h0zDfZaYrR":)
+
+

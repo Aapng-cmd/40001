@@ -91,7 +91,7 @@ namespace doomsday
         std::string stmp = "";
         while (is.get(c) && (c != ':'))
         {
-            stmp += c;
+            stmp += c; // maybe getline till " help?
         }
         try
         {
@@ -118,10 +118,7 @@ namespace doomsday
 
         }
         char c = '0';
-        while (is.get(c) && (c != ' '))
-        {
-            dest.key += c;
-        }
+        is >> dest.key;
         if (!is.bad() && !is.eof())
         {
             is.clear();
