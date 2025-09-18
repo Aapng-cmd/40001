@@ -1,3 +1,3 @@
-module task-1
+module github.com/Aapng-cmd/task-1
 
 go 1.24.4
